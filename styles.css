@@ -5,6 +5,9 @@
     display: flex;
     flex-wrap: wrap;
     margin: auto;
+    padding: 3px;
+    background-color: #737783;
+    border-radius: 10px;
 }
 
 .dial {
@@ -13,6 +16,7 @@
     border: 1px black solid;
     border-radius: 100%;
     background-color: #D7D9E8; 
+    margin : 10px;
 }
 
 .cell {
@@ -24,9 +28,21 @@
 
 .board {
     background-color: #C80015;
-    height: 55vh;
+    height: 100%;
     width: 65vw;
     margin: auto;
     display: flex;
     flex-direction: column;
+    border-radius: 10px;
+
 }
+
+.dialBox{
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    text-align: center;
+}
+

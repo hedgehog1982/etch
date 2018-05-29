@@ -37,7 +37,7 @@ document.getElementById("clear").addEventListener("click", function(){
     let allClasses = document.getElementsByClassName("cell")
     console.log(allClasses)
     for (key in allClasses){
-        document.getElementById(key).style.backgroundColor = "white"
+        document.getElementById(key).style.backgroundColor = "#737783"
     }
 })
 
