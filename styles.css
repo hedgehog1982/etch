@@ -1,22 +1,32 @@
-#drawingArea{
-    height : 40vh;
-    width : 60vw;
-    border : 1px solid black;
+#drawingArea {
+    height: 40vh;
+    width: 60vw;
+    border: 1px solid black;
     display: flex;
     flex-wrap: wrap;
+    margin: auto;
 }
 
-
-.dial{
-    height : 100px;
-    width : 100px; 
-    border : 1px black solid;
+.dial {
+    height: 100px;
+    width: 100px;
+    border: 1px black solid;
+    border-radius: 100%;
+    background-color: #D7D9E8; 
 }
 
-.cell{
- width : 8px;
- height : 8px;
- border : white 1px solid;
-
+.cell {
+    width: 8px;
+    height: 8px;
+    border: #737783 1px solid;
+    background-color: #737783;
 }
 
+.board {
+    background-color: #C80015;
+    height: 55vh;
+    width: 65vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
