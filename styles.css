@@ -1,0 +1,22 @@
+#drawingArea{
+    height : 40vh;
+    width : 60vw;
+    border : 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.dial{
+    height : 100px;
+    width : 100px; 
+    border : 1px black solid;
+}
+
+.cell{
+ width : 8px;
+ height : 8px;
+ border : black 1px solid;
+
+}
+
